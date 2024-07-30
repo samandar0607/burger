@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(223, 28, 28);
+    padding: 3px;
+    height: 50px;
+    /* position: fixed; */
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.logo a {
+    font-size: 20px;
+    color: white;
+    gap: 40px;
+}
+
+.logo button {
+    font-size: 20px;
+    background-color: rgb(223, 28, 28);
+    color: white;
+}
+
+.logo {
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+ul button {
+    padding: 5px;
+    background-color: transparent;
+    border: solid 3px #fff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+button {
+    border-radius: 10px;
+    padding: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.burger {
+    width: 300px;
+    height: 400px;
+    background-color: red;
+    padding-top: 100px;
+    margin: 10px;
+}
+
+.rasm {
+    width: 150px;
+}
+
+.hammasi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.burger3 {
+    width: 300px;
+    height: 400px;
+    background-color: red;
+    padding-top: 60px;
+    margin: 10px;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    background-color: white;
+    color: black;
+    box-shadow: 20px black;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-price {
+    font-size: 18px;
+    color: green;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.product-image {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+}
+
+.product-details {
+    flex: 2;
+}
+
+.product-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-size: 20px;
+    color: green;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.back-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+}
+
+.contact-info h3 {
+    margin-top: 0;
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+}
